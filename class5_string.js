@@ -93,3 +93,10 @@
     // let str = "shimla";
     // // console.log(str.slice(2,4))
     // console.log(str.slice(-4,-1))
+
+
+    // let a = "ankit";
+    // let b = "munisha";
+    // let c = "shahil";
+
+    // ab start hota h array
