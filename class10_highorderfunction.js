@@ -76,10 +76,37 @@
 
 
             // reduce function
-              let arr = [1,2,3,45,60]
+            //   let arr = [1,2,3,45,60]
 
-                 const z = arr.reduce((a,b)=>{
-                    // console.log(a,b)
-                    return a+b
-                   },40)
-                   console.log(z)
+            //      const z = arr.reduce((a,b)=>{
+            //         // console.log(a,b)
+            //         return a+b
+            //        },40)
+            //        console.log(z)
+
+
+            // setTimeout function
+
+
+
+            // setTimeout(()=>{
+            //    console.log("hello")
+            // },4000)
+
+            // setTimeout(()=>{
+            //          console.log("world")
+            // },2000)
+
+
+
+            // setTimeout(()=>{
+            //    console.log("manali")
+            // },0)
+
+            // console.log("shimla");
+            // console.log("kullu")
+           
+
+            // setInterval(()=>{
+            //    console.log("kullu")
+            // },2000)
