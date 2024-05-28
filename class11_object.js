@@ -69,6 +69,12 @@
                     // for(let i=0;i<3;i++){
                     //     console.log(arr[i])
                     // }
-                    arr.map((value)=>{
-                         console.log(value.name)
-                    })
+                    // arr.map((value)=>{
+                    //      console.log(value.name)
+                    // })
+
+
+
+
+
+                    console.log("hello world")
