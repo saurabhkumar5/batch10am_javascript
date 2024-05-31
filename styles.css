@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+#home{
+    margin-left: 300px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.invite-btn {
+    background-color: #add8e6;
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+}
+
+.highlight {
+    text-align: center;
+   
+}
+
+.highlight h2 {
+    font-size: 1.25rem;
+   
+}
+
+.momo{
+   margin-left: 50px;
+   width: 60vw;
+   margin-left: 300px;
+   background-color: #add8e6;
+}
+.aboutimg{
+      width: 100%;
+}
+
+
+#register h2 {
+    text-align: center;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#register-form label {
+    margin-top: 10px;
+}
+
+#register-form input,
+#register-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#register-form button {
+    padding: 10px;
+    margin-top: 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#register-form button:hover {
+    background: #0056b3;
+}
