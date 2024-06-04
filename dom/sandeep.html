@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sandeep.css">
+    <title>Document</title>
+</head>
+<body>
+        <!-- start header -->
+     <header>
+        <nav>
+            <div class="logo">Sandeep Maheswari</div>
+            <ul>
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About</a></li>
+                <li><a href="https://www.youtube.com/user/SandeepSeminars">Videos</a></li>
+                <li><a href="#" onclick="showPage('register')">Register</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+                
+            </ul>
+        </nav>
+     </header>
+     
+     <!-- header end -->
+
+
+     <main>
+
+        <section class="hero page" id="home">
+            <div class="hero-content">
+                <img src="https://img1.wsimg.com/isteam/ip/1172a89b-094a-415b-99fe-cc1e7d3cd9b0/blob.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1500,h:1000,cg:true" alt="">
+
+                <div class="text-content">
+                    <h1>Feel The Energy!</h1>
+                    <p>The World’s Most Popular Public Speaker</p>
+                    <button><a href="#" class="invite-btn">Invite now</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page" style="display: none;">
+
+            <img id="about" src="https://success-stories.in/images/heroes/young-brigade/sandeep-maheshwari.jpg" alt="">
+
+        </section>
+        <section id="register" class="page" style="display: none">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="organisation">Organisation*</label>
+                <input type="text" id="organisation" name="organisation" required>
+    
+                <label for="designation">Designation*</label>
+                <input type="text" id="designation" name="designation" required>
+    
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="mobile">Mobile*</label>
+                <input type="tel" id="mobile" name="mobile" required>
+    
+                <label for="website">Website*</label>
+                <input type="url" id="website" name="website" required>
+    
+                <label for="event-description">Event Description*</label>
+                <textarea id="event-description" name="event-description" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="contact" class="page" style="display: none">
+            <h2>contact</h2>
+            <form id="register-form">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="organisation">Organisation*</label>
+                <input type="text" id="organisation" name="organisation" required>
+    
+                <label for="designation">Designation*</label>
+                <input type="text" id="designation" name="designation" required>
+    
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="mobile">Mobile*</label>
+                <input type="tel" id="mobile" name="mobile" required>
+    
+                <label for="website">Website*</label>
+                <input type="url" id="website" name="website" required>
+    
+                <label for="event-description">Event Description*</label>
+                <textarea id="event-description" name="event-description" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+     </main>
+
+
+
+
+    <script src="sandeep.js"></script>
+</body>
+</html>
