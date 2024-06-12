@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+        //  console.log("good morning")
+
+        //    console.log("hello")
+
+        //     let arr = ["shimla","kullu","manali","spiti"]
+
+        //         const a  =  new Promise((resolve,reject)=>{
+                       
+        //                 if(arr.includes("shimla") && arr.includes("kullu") && arr.includes("khajiyar")){
+
+        //                     resolve("aapka trip succefully")
+        //                 }else{
+        //                     reject("aapa trip adhura rah gya ")
+        //                 }
+        //             })
+
+
+        //             // consume
+
+        //             a
+        //             .then((x)=>{
+        //                  console.log(x)
+        //             })
+        //             .catch((b)=>{
+        //                 console.log(b)
+        //             })
+
+
+        //             console.log("byee")
+
+
+
+
+                    //  const data  = "https://jsonplaceholder.typicode.com/users"
+                    
+                    // // console.log(data)
+
+                    //       const value = fetch(data)
+                    //         //    console.log(value)
+                               
+                    //          value.then((a)=>{
+                                
+                    //               return a.json()
+                    //          })
+                    //          .then((b)=>{
+                    //               console.log(b)
+                    //          })
+                              
+
+                    //          console.log("hello ")
+                          const data  = "https://jsonplaceholder.typicode.com/users"
+
+                    async  function Momo(){
+                                  
+                                    const value  = await fetch(data)
+
+                                     const y  = await value.json()
+                                      console.log(y)
+                      }
+                      Momo()
+                 
+                      console.log("byee")
+
+    </script>
+</body>
+</html>
